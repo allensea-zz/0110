@@ -27,4 +27,3 @@ resource "aws_s3_bucket_object" "index" {
     etag = "${md5(file("files/zerooneonezero.co.uk/index.html"))}"
     content_type = "text/html"
 }
-
